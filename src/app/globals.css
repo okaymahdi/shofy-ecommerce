@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 } */
+
+@layer components{
+  .headerTopMenu{
+    @apply flex items-center gap-x-1 border-r-[1px] border-r-gray-400 px-4
+  }
+}
